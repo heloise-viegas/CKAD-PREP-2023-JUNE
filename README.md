@@ -11,3 +11,7 @@
  - [Documentation ](https://kubernetes.io/docs/home/)
 
 Bonus CKA https://www.udemy.com/share/101WmE3@xKVZm0DBaNb_KihPQ4mOxG_Sum8jL_2dE5oJqIgQ_VLfKcV0g7_CuEbWIFgbhdAg/
+
+
+### Note
+This is a collection of my learnings and notes from the above resources. The notes in no way can substitute for any of the courses out there. These are just for reference etc
