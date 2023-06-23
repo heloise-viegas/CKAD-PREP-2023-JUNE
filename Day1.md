@@ -43,11 +43,11 @@ Smallest unit of kubernetes deployment
 
 **Commands**
 pods ~ po
-kubectl get po
-kubectl run container-name --image imageName
-kubectl apply -f pod.yaml
-kubectl get pod <pod-name> -o yaml > pod-definition.yaml
-kubectl edit pod <pod-name>
+- kubectl get po
+- kubectl run container-name --image imageName
+- kubectl apply -f pod.yaml
+- kubectl get pod <pod-name> -o yaml > pod-definition.yaml
+- kubectl edit pod <pod-name>
 
 Links :
 https://kubernetes.io/docs/concepts/workloads/pods/#using-pods
