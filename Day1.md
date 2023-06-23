@@ -108,3 +108,9 @@ namespace ~ ns
 
 Links :
 https://kubernetes.io/docs/tasks/administer-cluster/namespaces/#creating-a-new-namespace
+
+
+Bonus :
+
+kubectl expose pod redis --port=6379 --name redis-service --dry-run=client -o yaml
+
