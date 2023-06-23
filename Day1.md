@@ -36,10 +36,10 @@ Kubernetes installation contains :
 
 
 ### Pods
-Abstraction of container
-1pod  : 1container
-multi container pods are supported eg. helper containers etc
-Smallest unit of kubernetes deployment
+1. Abstraction of container
+2. 1pod  : 1container
+3. multi container pods are supported eg. helper containers etc
+4. Smallest unit of kubernetes deployment
 
 **Commands**
 
