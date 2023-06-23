@@ -52,3 +52,39 @@ pods ~ po
 
 Links :
 https://kubernetes.io/docs/concepts/workloads/pods/#using-pods
+
+
+### Replica sets
+ 1. Manages node failure
+ 2. Balances load
+ 3. Spread across multiple nodes in the cluster
+ 4. Has selector label unlike Replication Controller. Selector label allows Replica Set to manage pods which were not created as part of the replica definition file. 
+ 5. It ensures that at all times specified number of pods are available.
+
+Labels and Selectors :
+ 1. Used to filter or select pods with specific labels. Basically an identifier for pods.
+
+**Commands**
+replicasets ~ rs
+ 1. kubectl get rs
+ 2. kubectl apply -f rs.yaml
+ 3. kubectl  replace -f rs.yaml (if count is edited in file)
+ 4. kubectl  scale --replicas=n -f rs.yaml
+ 5. kubectl  delete replicaset rs-name
+
+Links :
+https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example
+
+
+
+### Deployments
+ 1. Encapsulates pod and replica sets. Is used to apply various deployment strategies like rolling updates,  blue-green etc.
+ 2. Very similar to Replica Sets
+ 
+ **Commands**
+  1.  kubectl get all
+  2. kubectl get deploy
+  3. kubectl apply -f deploy.yaml
+
+Links:
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment
