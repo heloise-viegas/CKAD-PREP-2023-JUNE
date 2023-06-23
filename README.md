@@ -8,5 +8,6 @@
  - [Practice questions 2](https://github.com/dgkanatsios/CKAD-exercises)
  - [Practice questions 3](https://medium.com/bb-tutorials-and-thoughts/practice-enough-with-these-questions-for-the-ckad-exam-2f42d1228552)
  - [Coupons](https://devopscube.com/kubernetes-certification-coupon/)
+ - [Documentation ](https://kubernetes.io/docs/home/)
 
 Bonus CKA https://www.udemy.com/share/101WmE3@xKVZm0DBaNb_KihPQ4mOxG_Sum8jL_2dE5oJqIgQ_VLfKcV0g7_CuEbWIFgbhdAg/
