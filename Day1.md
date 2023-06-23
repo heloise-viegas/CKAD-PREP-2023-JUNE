@@ -42,6 +42,7 @@ multi container pods are supported eg. helper containers etc
 Smallest unit of kubernetes deployment
 
 **Commands**
+
 pods ~ po
 1. kubectl get po
 2. kubectl run container-name --image imageName
