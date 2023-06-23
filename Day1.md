@@ -89,3 +89,22 @@ https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#example
 
 Links:
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment
+
+
+### Namespaces
+ 1. Separates resources eg. Environments
+ 2. Resources limits like CPU can be set for each namespace
+ 3. Within Namespace objects are referred directly using the object names
+ 4. Outside Namespace : svc-name.Namespace.svc.cluster.local
+
+Resource Quota :
+ 1. Used to specify cpu limit and storage to namespace.
+
+**Commands**
+namespace ~ ns
+ 1. kubectl get ns
+ 2. kubectl config set-context $(k config current-context) --namespace=name
+
+
+Links :
+https://kubernetes.io/docs/tasks/administer-cluster/namespaces/#creating-a-new-namespace
