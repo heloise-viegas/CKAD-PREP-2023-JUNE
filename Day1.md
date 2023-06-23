@@ -65,6 +65,7 @@ Labels and Selectors :
  1. Used to filter or select pods with specific labels. Basically an identifier for pods.
 
 **Commands**
+
 replicasets ~ rs
  1. kubectl get rs
  2. kubectl apply -f rs.yaml
