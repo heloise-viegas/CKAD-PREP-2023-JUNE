@@ -50,4 +50,4 @@ kubectl get pod <pod-name> -o yaml > pod-definition.yaml
 kubectl edit pod <pod-name>
 
 Links :
-https://kubernetes.io/docs/concepts/workloads/pods/#using-pods## 23-JUNE-2023
+https://kubernetes.io/docs/concepts/workloads/pods/#using-pods
