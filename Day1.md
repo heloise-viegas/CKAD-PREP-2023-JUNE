@@ -26,7 +26,7 @@ Kubernetes installation contains :
  6. Container runtime : software that runs containers
 
  																							   
-| **Master  | Worker** |
+| **Master**  | **Worker** |
 |--|--|
 | Api Server | Kubelet |
 | etcd |  |
