@@ -60,3 +60,10 @@ configpmap~ cm
 
 Links :
 https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#define-container-environment-variables-using-configmap-data
+
+Questions :
+- https://github.com/dgkanatsios/CKAD-exercises/blob/main/d.configuration.md#configmaps
+  ![image](https://github.com/heloise-viegas/CKAD-PREP-2023-JUNE/assets/37453877/8d4d2361-cdeb-4136-a41e-1ae9917a8bbc)
+- https://github.com/bmuschko/ckad-prep/blob/master/2-configuration.md#configuring-a-pod-to-use-a-configmap
+  ![image](https://github.com/heloise-viegas/CKAD-PREP-2023-JUNE/assets/37453877/e00080c1-6923-4760-b9cd-c124a63f37d1)
+
