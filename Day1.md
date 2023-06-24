@@ -116,7 +116,7 @@ kubectl expose pod redis --port=6379 --name redis-service --dry-run=client -o ya
 
 Questions :
 
-https://github.com/bmuschko/ckad-prep/blob/master/1-core-concepts.md
-https://github.com/dgkanatsios/CKAD-exercises/blob/main/a.core_concepts.md
+- https://github.com/bmuschko/ckad-prep/blob/master/1-core-concepts.md
+- https://github.com/dgkanatsios/CKAD-exercises/blob/main/a.core_concepts.md
 ![image](https://github.com/heloise-viegas/CKAD-PREP-2023-JUNE/assets/37453877/c6c1dd62-8c64-4ef2-8b84-b4704c28d984)
 
