@@ -27,22 +27,27 @@ ENV :
 
    
 Single env.
->      env:
->        - name :
->           valueFrom: 
->                configMapKeyRef:
->                      name: name-of-configmap
->                      key:     key-name
 
-Multi env.
-> envFrom:
->      - configMapRef:
->             name: name-of-configmap
+   env:
+       - name :
+          valueFrom: 
+            configMapKeyRef:
+              name: name-of-configmap
+              key:     key-name
+
+
+Volumes 
 
         volumes:
          - name : vol-name
-            configMap:
-                     name: name-of-configmap
+           configMap:
+             name: name-of-configmap
+
+ Multi env.
+
+     envFrom:
+        - configMapRef:
+             name: name-of-configmap
                      
 
 **Commands**
