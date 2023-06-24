@@ -4,6 +4,9 @@
 
 ## Core Concepts
 
+**Application Design and Build**
+*Define, build, and modify container images*
+
 ### Kubernetes Architecture
 Node/Minion : 
  1. physical/virtual machine where kubectl is installed
