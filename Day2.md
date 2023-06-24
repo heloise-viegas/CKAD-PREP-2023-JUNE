@@ -2,9 +2,10 @@
 
 ## Day2
 
-## Application Design and Build
-
 ## Configuration
+
+**Configuration**
+*Understand ConfigMaps*
 
 ### Commands & Arguments
  1. Docker : cmd is replaced by arguments passed in docker run. entrypoint appends the docker run argument. 
@@ -21,6 +22,7 @@ args: [""] overwrites CMD
 ENV :
  1. Is an array
  2. ConfigMap and Secrest can be used here
+
 
 ### ConfigMap
 1. can be accessed using envFrom ; or env: or volumes: 
