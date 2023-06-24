@@ -35,7 +35,6 @@ Single env.
 >                      key:     key-name
 
 Multi env.
-
 > envFrom:
 >      - configMapRef:
 >             name: name-of-configmap
@@ -47,6 +46,7 @@ Multi env.
                      
 
 **Commands**
+
 configpmap~ cm
  1. kubectl get cm
  2. kubectl create cm cm-name --dry-run=client -o yaml > cm.yaml
