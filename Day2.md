@@ -27,12 +27,15 @@ ENV :
 
    
 Single env.
- env:
+
+    env:
       - name :
         valueFrom: 
           configMapKeyRef:
              name: name-of-configmap
              key: key-name
+          
+
 
 Volumes 
 
