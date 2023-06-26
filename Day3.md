@@ -61,7 +61,7 @@ Pod level
 
  Container level
 
-     shift the above snippet under conatiner:
+     shift the above snippet under container:
                      
 
 **Commands**
