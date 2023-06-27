@@ -55,13 +55,21 @@ Pod level
         runAsUser: val
           OR
         runAsGroup: val
-        
-        capabilities:
-          add: ["NET_ADMIN", "SYS_TIME"]
+
 
  Container level
 
      shift the above snippet under container:
+       container:
+       securityContext :
+        fsGroup: val
+          OR
+        runAsUser: val
+          OR
+        runAsGroup: val
+        
+        capabilities: (only at container level)
+          add: ["NET_ADMIN", "SYS_TIME"]
                      
 
 **Commands**
