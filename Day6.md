@@ -28,12 +28,6 @@ Links :
 - https://matthewpalmer.net/kubernetes-app-developer/articles/multi-container-pod-design-patterns.html
 
 
-Questions :
-
-- https://github.com/dgkanatsios/CKAD-exercises/blob/main/d.configuration.md#resource-requests-and-limits
-- https://github.com/bmuschko/ckad-prep/blob/master/2-configuration.md#defining-a-pods-resource-requirements
-
-
 ### Init Containers
 1. When a POD is first created the Init Container is run, and the process in the Init Container must run to a completion before the real container hosting the application starts.           
 
@@ -49,4 +43,4 @@ Questions :
 Questions :
 
 - https://github.com/bmuschko/ckad-prep/blob/master/3-multi-container-pods.md
-- https://github.com/bmuschko/ckad-prep/blob/master/2-configuration.md#defining-a-pods-resource-requirements
+- https://github.com/dgkanatsios/CKAD-exercises/blob/main/b.multi_container_pods.md
