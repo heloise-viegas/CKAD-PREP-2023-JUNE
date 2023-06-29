@@ -48,5 +48,5 @@ Questions :
 
 Questions :
 
-- https://github.com/dgkanatsios/CKAD-exercises/blob/main/d.configuration.md#resource-requests-and-limits
+- https://github.com/bmuschko/ckad-prep/blob/master/3-multi-container-pods.md
 - https://github.com/bmuschko/ckad-prep/blob/master/2-configuration.md#defining-a-pods-resource-requirements
