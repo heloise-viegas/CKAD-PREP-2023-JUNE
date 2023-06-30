@@ -46,7 +46,7 @@ Links :
 1. Prints logs of application in the pod
 2. for multi container pods we need to specify the container name          
 
-Command:
+**Command:**
 k logs pod-name -c container-name
 
  Links :
@@ -64,6 +64,6 @@ Questions :
 2. 1 metrics server = 1 Cluster
 3. identifies pods using most/least cpu or memory
 
-Commands:
+**Commands:**
 k top nodes  ( node metrics)
 k top pods   ( pod metrics)
