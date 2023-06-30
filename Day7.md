@@ -42,11 +42,6 @@ readinessProbe:
 Links :
 - https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/#define-a-tcp-liveness-probe
 
-Questions :
-
-- https://github.com/bmuschko/ckad-prep/blob/master/4-observability.md
-- https://github.com/dgkanatsios/CKAD-exercises/blob/main/e.observability.md
-
 ### Logging
 1. Prints logs of application in the pod
 2. for multi container pods we need to specify the container name          
@@ -57,10 +52,11 @@ k logs pod-name -c container-name
  Links :
 - https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs
 
+
 Questions :
 
-- https://github.com/dgkanatsios/CKAD-exercises/blob/main/d.configuration.md#resource-requests-and-limits
-- https://github.com/bmuschko/ckad-prep/blob/master/2-configuration.md#defining-a-pods-resource-requirements
+- https://github.com/bmuschko/ckad-prep/blob/master/4-observability.md
+- https://github.com/dgkanatsios/CKAD-exercises/blob/main/e.observability.md
  
  
 ### Monitoring
