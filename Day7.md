@@ -63,3 +63,7 @@ Questions :
 1. Used to check metrics of the cluster
 2. 1 metrics server = 1 Cluster
 3. identifies pods using most/least cpu or memory
+
+Commands:
+k top nodes  ( node metrics)
+k top pods   ( pod metrics)
