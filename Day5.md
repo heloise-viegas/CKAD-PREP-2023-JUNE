@@ -27,7 +27,7 @@ Links :
 
 Questions :
 
-- 
+- https://github.com/dgkanatsios/CKAD-exercises/blob/main/c.pod_design.md#pod-placement
 
 
 ### Node Selectors
@@ -49,11 +49,6 @@ Links :
 - https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector
 
 
-Questions :
-
-- 
-- 
-
 ### Node Affinity
 1. Same as Node Selector but can use Or / And i.e. In/NotIn/Exists
 2. Node affinity type specifies when the condition will be applied i.e. during scheduling/execution
@@ -73,9 +68,3 @@ affinity:
 
 Links :
 - https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#node-affinity
-
-
-Questions :
-
-- 
-- 
