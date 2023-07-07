@@ -25,7 +25,8 @@ Note that the /pay URL path is what we configure on the ingress controller so we
 Without the rewrite-target option, this is what would happen:
 ```http://<ingress-service>:<ingress-port>/watch --> http://<watch-service>:<port>/watch```
 Thus we use rewrite target : this internally replaces the ingress path with the application path
-```annotations:
+```
+annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 ```
 
