@@ -31,7 +31,8 @@
 - k get pods --as user-name
 - k create role developer --verb=list,create,delete --resource=pods
 - k create rolebinding dev-user-binding --role=developer --user=dev-user
-- k edit role 
+- k edit role
+-  kubectl config --help (to create user)
 
 Links :
 - https://kubernetes.io/docs/reference/access-authn-authz/authorization/#authorization-modules
