@@ -4,7 +4,7 @@
 
 ## Configuration
 
-**Configuration** *Taints, Tolerations,Node Selectors, Node Affinity*
+**Configuration** *Taints, Tolerations,Node Selectors,Node Affinity*
 
 ### Taints, Tolerations
 1. Taints are for node & Tolerations are for pods
